@@ -1,0 +1,16 @@
+{
+  "version": "2.0",
+  "logging": {
+    "logLevel": {
+      "default": "Information"
+    },
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "maxTelemetryItemsPerSecond": 5,
+        "excludedTypes": "Exception;Event",
+        "includedTypes": "Request;Dependency;Trace"
+      }
+    }
+  }
+}

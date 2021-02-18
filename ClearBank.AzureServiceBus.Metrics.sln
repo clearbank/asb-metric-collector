@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClearBank.AzureServiceBus.Metrics.Collector", "src\ClearBank.AzureServiceBus.Metrics.Collector\ClearBank.AzureServiceBus.Metrics.Collector.csproj", "{B433F59C-EC72-4609-85D3-361F3E460D69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02DCD79B-5ACF-41BB-8ED5-2473E35BA963}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{93A3F86F-DAC2-42F7-8293-E56E852D62E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClearBank.AzureServiceBus.Metrics.Collector.Tests.Component", "tests\ClearBank.AzureServiceBus.Metrics.Collector.Tests.Component\ClearBank.AzureServiceBus.Metrics.Collector.Tests.Component.csproj", "{1512B8B8-F041-47C8-A114-9E24ACB685A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClearBank.AzureServiceBus.Metrics.Collector.Tests.Integration", "tests\ClearBank.AzureServiceBus.Metrics.Collector.Tests.Integration\ClearBank.AzureServiceBus.Metrics.Collector.Tests.Integration.csproj", "{7A2ACDF0-5E2E-4B59-8F8F-A7B9E4891311}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B433F59C-EC72-4609-85D3-361F3E460D69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B433F59C-EC72-4609-85D3-361F3E460D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B433F59C-EC72-4609-85D3-361F3E460D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B433F59C-EC72-4609-85D3-361F3E460D69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1512B8B8-F041-47C8-A114-9E24ACB685A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1512B8B8-F041-47C8-A114-9E24ACB685A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1512B8B8-F041-47C8-A114-9E24ACB685A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1512B8B8-F041-47C8-A114-9E24ACB685A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A2ACDF0-5E2E-4B59-8F8F-A7B9E4891311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2ACDF0-5E2E-4B59-8F8F-A7B9E4891311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2ACDF0-5E2E-4B59-8F8F-A7B9E4891311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2ACDF0-5E2E-4B59-8F8F-A7B9E4891311}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B433F59C-EC72-4609-85D3-361F3E460D69} = {02DCD79B-5ACF-41BB-8ED5-2473E35BA963}
+		{1512B8B8-F041-47C8-A114-9E24ACB685A5} = {93A3F86F-DAC2-42F7-8293-E56E852D62E7}
+		{7A2ACDF0-5E2E-4B59-8F8F-A7B9E4891311} = {93A3F86F-DAC2-42F7-8293-E56E852D62E7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21F9D3CD-6C71-4865-8261-F65DC421FCDD}
+	EndGlobalSection
+EndGlobal
